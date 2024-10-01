@@ -1,11 +1,5 @@
-My name is Ayah and my email is anabdalla1@my.waketech.edu
-
-This is a test of my github acount, I made this acount after (one of) my favorite pokemon. I have used github for a really logn time so this took 30 seconds :0
-
-This is also a test repoistory, made for CTI 110, I will use this repo for future assigment and more tests
-
-To make this, I first made and cloned a empty repository and edited it in VScode, then pushed into main using Github Deskstop
-
-That's all :I
-
-Long Live Bidoof
+# About Me
+I am Ayah, A **Junior** in High School and go to school at _**WECIB**_, while also attending college at **Wake Tech**
+## My Hobbies
+1. I love cooking and baking, I used to dream about going on **MasterChef Kids**, and me and my sister would lowkey, ~~pirate~~ the show so we could watch it and recreate the recipes ~~any fed seeing this that was a joke~~
+    * I will work on this with my second computer lol

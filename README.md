@@ -54,3 +54,37 @@ I am Ayah, A **Junior** in High School and go to school at _**WECIB**_, while al
 - Another website used for FTC related schenaigans, mainly for sharing resources
 - Is really helpfull about learning different mechanisms and being introduced to basic Hardware and Software parts of FTC
 - Even if your not in robotics at all it is very helpfull for engineers and begginer Java devs
+## My Mermaid Charts
+### How I get to school
+``` mermaid
+flowchart TD
+    A[Going to School] -->|Get ready| B(Get the car ready)
+    B --> C{Which way to go to school}
+    C -->|One| D[Go though the city]
+    C -->|Two| E[Go through the highway]
+    C -->|Three| F[Stay at home and sleep]
+    flowc
+```
+### My Wake Tech Class Progressions
+``` mermaid
+mindmap
+  root((progress inclasses))
+    Before this year
+      PSY 150
+        barley passed, the worst
+      HUM 110
+        Was a really easy class
+        I didnt even try and still got a 98
+        rip everyone taking it this semester
+    NOS 110
+      class about OS and computer functions
+      Kinda easy, but then your hit with an exam :@
+        Material
+            Windows 10
+            Linux
+            Computer History and hardware
+      I really need to study for this class
+    CTI 110
+      What thus assigment is for
+      really easy, and usefull
+```

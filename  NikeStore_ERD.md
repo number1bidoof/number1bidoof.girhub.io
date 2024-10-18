@@ -32,3 +32,4 @@ erDiagram
     PRODUCT ||--o{ INVENTORY : has_stock
 
 ```
+In this ERD diagram explain the relashonship between customer, sales, order and inventory data. The INVENTORY host stock quantity and products inside. CUSTOMER  has customer data like email and thier name and most importantly thier ID. product has the product ID, name and decription. and SALE has sale data and the order price

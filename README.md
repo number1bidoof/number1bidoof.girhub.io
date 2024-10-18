@@ -11,7 +11,7 @@ I am Ayah, A **Junior** in High School and go to school at _**WECIB**_, while al
 - R0botics Engineer
 - Particle Physicsts
 - ~~Artitect~~
-- Chef at _spesficaly_ French Luandry 
+- Chef at _spesfgicaly_ French Luandry 
 ### Top 10 FTC teams
 1. MARVELS OF IAR REPRESENT AYYYYYYY
 2. HiveMind **polar if your reading this wassup**

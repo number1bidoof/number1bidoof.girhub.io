@@ -1,0 +1,28 @@
+
+/* Color Palette:
+Light Shades: #fcfcfd;
+Light Accent: #ebc06c;
+Main Brand Color: #e96663;
+Dark Accent: #aaacb3;
+Dark Shades: #475671;
+*/
+
+.active{
+    background-color: #c5bf95;
+}
+
+body{
+    background-color: #475671;
+}
+.navbar{
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+.navbar a{
+    float: left;
+    display :list-item;
+    color : black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}

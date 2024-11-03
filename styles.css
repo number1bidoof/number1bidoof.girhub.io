@@ -19,10 +19,16 @@ body{
     background-color: antiquewhite;
 }
 .navbar a{
-    float: left;
-    display :list-item;
+    float: right;
+    display: inline-block;
     color : black;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
+}
+.name {
+   background-color: aliceblue; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:black
+
 }

@@ -1,34 +1,106 @@
 
 /* Color Palette:
-Light Shades: #fcfcfd;
-Light Accent: #ebc06c;
-Main Brand Color: #e96663;
-Dark Accent: #aaacb3;
-Dark Shades: #475671;
+Background Color: #282242;
+Navbar Color: #562750;
+Text Color : #FDF2E8;
+Light Accent: #AAAAAE;
+Dark Accent: #40102F;
 */
 
 .active{
-    background-color: #c5bf95;
+    background-color: #562750;
 }
 
 body{
-    background-color: #475671;
+    background-color: #282242;
 }
-.navbar{
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+.navBar{
+    list-style-type: none; /* Removes bullets */
+    margin: 0;
+    padding: 0;
+    position:sticky;
+    top:0;
     overflow: hidden;
-    background-color: antiquewhite;
+    background-color:#562750;
+    height:auto;
 }
-.navbar a{
-    float: right;
-    display: inline-block;
-    color : black;
+
+.navBar li{
+    float: left;
+    border-right: 1px solid #475671;
+}
+.navBar li:last-child {
+    border-right: none;
+  }
+
+.navBar li a{
+    display: block;
+    color: #FDF2E8;
     text-align: center;
-    padding: 15px 20px;
+    padding: 14px 16px;
     text-decoration: none;
 }
-.name {
-   background-color: aliceblue; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color:black
 
+.navBar li a:hover{
+    color: #870200;
+}
+
+header{
+    color: #fcfcfd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: sticky;
+    overflow: hidden;
+    font-size: larger;
+}
+.contactheader{
+    color: #aaacb3;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+    width: 170px;
+    display: inline-block;
+    shape-margin: 40px;
+    border-radius: 50%;
+
+}
+
+.column{
+    float: left;
+    width: 33%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        width:100%;
+    }
+}
+
+.sectiontitle{
+    color: #680200;
+    text-align:center
+}
+a:hover{
+    color: #550402;
+}
+
+.card{
+    border: 3px #aaacb3;
+    background-color: #fcfcfd;
+    border-radius: 5px;
+    margin: 2px;
 }

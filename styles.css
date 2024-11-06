@@ -8,7 +8,7 @@ Dark Accent: #40102F;
 */
 
 .active{
-    background-color: #562750;
+    background-color: #40102F;
 }
 
 body{
@@ -24,7 +24,7 @@ nav{
 }
 
 .navBar{
-    list-style-type: none; /* Removes bullets */
+    list-style: none;
     margin: 0;
     padding: 0;
     position:sticky;
@@ -36,16 +36,15 @@ nav{
 
 .navBar li{
     float: left;
-    border-right: 1px solid #475671;
+    border-right: 1px solid #40102F;
 }
 .navBar li:last-child {
     border-right: none;
   }
 
 .navBar li a{
-    display: block;
-    color: #FDF2E8;
-    text-align: center;
+    display: list-item;
+    color:#FDF2E8;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -55,7 +54,7 @@ nav{
 }
 
 header{
-    color: #fcfcfd;
+    color: #AAAAAE;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     position: sticky;
@@ -71,7 +70,6 @@ img {
     display: inline-block;
     shape-margin: 40px;
     border-radius: 50%;
-
 }
 
 .column{
@@ -91,7 +89,7 @@ img {
 }
 
 .sectiontitle{
-    color: #680200;
+    color: antiquewhite;
     text-align:center
 }
 a:hover{
@@ -99,8 +97,17 @@ a:hover{
 }
 
 .card{
-    border: 3px #aaacb3;
-    background-color: #fcfcfd;
+    border: 6px #000f45;
+    background-color: #AAAAAE;
     border-radius: 5px;
-    margin: 2px;
+    margin: 1px;
+}
+
+h1 and h2 and h3{
+    color:#562750
+}
+
+footer{
+    color: cornflowerblue;
+    background-color: aliceblue;
 }

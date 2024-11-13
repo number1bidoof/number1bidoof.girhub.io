@@ -107,7 +107,12 @@ h1 and h2 and h3{
     color:#562750
 }
 
-footer{
-    color: cornflowerblue;
-    background-color: aliceblue;
+.input-box{
+    width: 250px;
+    height: 150px;
+}
+
+.box > * {
+    align-items: center;
+    display: flex
 }

@@ -25,11 +25,42 @@
         Linkedin: <a href="https://www.linkedin.com/in/ayah-abdalla-15a9512a1/" target="_blank">Ayah Abdalla</a>
         <br>
         </section>
+        <section class="column card">
+        <form class="box">
+            <lablel for="uname">What is your name</lablel>
+            <input type="text" id="your name" name="uname" required minlength="10" maxlength="100">
+            <br>
+            <label for="umail">What is your email</label>
+            <input type ="email" id ="umail" name="umail" required minlength="10" aria-errormessage="This is not a valid email, try again">
+            <br>
+            <label for="Message">What is your message?</label>
+            <input type="text" name="Message" class="input-box">
+            <br>
+            <label for="phone">Enter your phone number</label>
+            <input type="tel" id="phone" name="phone" minlength = "10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            <br>
+            <fieldset>
+                <legend>Please select why you are contacting:</legend>
+                <div>
+                  <input type="radio" id="contactChoice1" name="contact" value="email" />
+                  <label for="contactChoice1">Questions</label>
+            
+                  <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                  <label for="contactChoice2">Comments</label>
+            
+                  <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                  <label for="contactChoice3">Concerns</label>
+                </div>
+                <div>
+                  <button type="submit">Submit</button>
+                </div>
+              </fieldset>
+        </form>
+        </section>
         <br>
         <br>
         <br>
         <br>
         <br>
-       <footer>Updated last: 11/06/2024</footer>
     </body>
 </html>
